@@ -43,5 +43,14 @@ isPalindromo(parolaUtente, parolaInvertita);
 //      - se (pari && utente ha scelto pari) || (dispari && utente ha scelto dispari): utente vince
 //      - altrimenti: utente ha perso
 
+let numCpu;
+function numRandom (x) {
+    x = Math.floor(Math.random() * 5) + 1;
+
+    return x;
+}
+
+numCpu = numRandom(numCpu);
+
 let pariDispariUtente = prompt("Scegli pari o dispari", "pari");
 let numUtente = parseInt(prompt("Scegli un num da 1 a 5", 3));
