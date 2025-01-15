@@ -54,3 +54,10 @@ numCpu = numRandom(numCpu);
 
 let pariDispariUtente = prompt("Scegli pari o dispari", "pari");
 let numUtente = parseInt(prompt("Scegli un num da 1 a 5", 3));
+
+console.log(`Pari o dispari? hai scelto: ${pariDispariUtente}`)
+console.log(`Il num che hai scelto: ${numUtente}`)
+
+console.log(`La CPU ha scelto: ${numCpu}`)
+
+let sommaNum = numCpu + numUtente;
