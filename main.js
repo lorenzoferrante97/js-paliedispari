@@ -23,3 +23,5 @@ parolaInvertita == parolaUtente ? console.log("La parola è palindroma") : conso
 
 
 // esercizio pari o dispari
+
+// start es. 2
