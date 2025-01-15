@@ -71,3 +71,5 @@ if (((pariODispari == 0) && (pariDispariUtente == "pari") || (pariODispari !== 0
 } else {
     console.log("Hai perso!")
 }
+
+//end code
