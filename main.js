@@ -61,3 +61,13 @@ console.log(`Il num che hai scelto: ${numUtente}`)
 console.log(`La CPU ha scelto: ${numCpu}`)
 
 let sommaNum = numCpu + numUtente;
+
+let pariODispari = sommaNum % 2;
+
+console.log(`Il num finale è: ${sommaNum}`)
+
+if (((pariODispari == 0) && (pariDispariUtente == "pari") || (pariODispari !== 0) && (pariDispariUtente == "dispari"))) {
+    console.log("Hai vinto!")
+} else {
+    console.log("Hai perso!")
+}
