@@ -33,3 +33,12 @@ isPalindromo(parolaUtente, parolaInvertita);
 // esercizio pari o dispari
 
 // start es. 2
+
+// workflow
+
+// 1. richiedere all'utente "pari" o "dispari" e un numero da 1 a 5
+// 2. generiamo per la cpu "pari" o "dispari" e un num da 1 a 5
+// 3. somma num utente e num cpu
+// 4. controllo se il risultato è pari o dispari
+//      - se (pari && utente ha scelto pari) || (dispari && utente ha scelto dispari): utente vince
+//      - altrimenti: utente ha perso
