@@ -1,3 +1,5 @@
+// start code
+
 // esercizio palindromi
 
 
