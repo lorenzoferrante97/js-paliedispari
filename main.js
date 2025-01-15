@@ -42,3 +42,6 @@ isPalindromo(parolaUtente, parolaInvertita);
 // 4. controllo se il risultato è pari o dispari
 //      - se (pari && utente ha scelto pari) || (dispari && utente ha scelto dispari): utente vince
 //      - altrimenti: utente ha perso
+
+let pariDispariUtente = prompt("Scegli pari o dispari", "pari");
+let numUtente = parseInt(prompt("Scegli un num da 1 a 5", 3));
